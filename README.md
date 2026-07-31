@@ -127,14 +127,21 @@ http://127.0.0.1:5000
 
 ## 📸 Project Screenshots
 
-Add screenshots of the following pages:
+### Registration Page
 
-```
-screenshots/
-├── register.png
-├── login.png
-├── dashboard.png
-```
+![Registration Page](screenshots/register.png)
+
+---
+
+### Login Page
+
+![Login Page](screenshots/login.png)
+
+---
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
 
 ---
 
