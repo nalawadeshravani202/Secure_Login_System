@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="card shadow">
+
+<div class="card-body">
+
+<h2>
+
+Welcome,
+
+{{ current_user.username }}
+
+</h2>
+
+<hr>
+
+<h4 class="text-success">
+
+Login Successful
+
+</h4>
+
+<p>
+
+Your account is secured using:
+
+</p>
+
+<ul>
+
+<li>Password Hashing (bcrypt)</li>
+
+<li>SQL Injection Protection (SQLAlchemy ORM)</li>
+
+<li>Flask Session Management</li>
+
+<li>Input Validation (Flask-WTF)</li>
+
+<li>SQLite Database</li>
+
+</ul>
+
+<a href="{{ url_for('auth.logout') }}"
+
+class="btn btn-danger">
+
+Logout
+
+</a>
+
+</div>
+
+</div>
+
+{% endblock %}
